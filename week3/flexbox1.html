@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+</head>
+<style>
+    body {
+        background-color: rgb(223, 222, 222);
+    }
+
+    h1 {
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 1200;
+        font-style: bold;
+    }
+
+    p {
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container>div {
+        width: 20%;
+        border-radius: 20px;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div style="background-color: rgb(236, 235, 235); ">
+            <img src="images3/Building2.jpg" alt="Residential Projects" width="300" height="300">
+            <h1> Residential Projects</h1>
+            <p> We build sustainable and modern homes for comfortable lving. </p>
+        </div>
+        <div style="background-color: rgb(236, 235, 235);">
+            <img src="images3/Building3.jpg" alt="Commercial Spaces" width="300" height="300">
+            <h1> Commercial Spaces</h1>
+            <p> We create efficient, inspiring workspaces for businesses of all sizes. </p>
+        </div>
+        <div style="background-color: rgb(236, 235, 235);">
+            <img src="images3/Building1.jpg" alt="Infrastrucure Works" width="300" height="300">
+            <h1> Infrastrucure Works</h1>
+            <p> We develop strong, reliable infrastructure for growing communities. </p>
+        </div>
+    </div>
+</body>
+
+</html>
