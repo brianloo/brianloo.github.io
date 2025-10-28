@@ -5,20 +5,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
+<style>
+    body {
+        background-color: rgb(241, 209, 177);
+    }
+
+    .menubar {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        width: 97%;
+        margin-top: 50px;
+    }
+
+    .contact {
+        text-decoration: none;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 12px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        padding: 7px 10px;
+        border-radius: 6px;
+        background-color: #f9612b;
+        margin-right: 20px;
+    }
+
+    .tabs a {
+        text-decoration: none;
+        font-family: 'Oxygen', sans-serif;
+        font-size: 11px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        margin: 8px;
+    }
+
+    .tabs :hover {
+        color: #f9612b;
+    }
+
+    .tabs {
+        margin-left: 40px;
+        margin-right: auto;
+    }
+</style>
 
 <body>
-    <div class="menubar">
-        <img class="logo" src="images4/Elementra.png" alt="Logo">
-        <div class="tabs">
-            <a href="#">Home</a>
-            <a href="#">Services</a>
-            <a href="#">Work</a>
-            <a href="#">Project Details</a>
-            <a href="#">Contact</a>
+    <div class="container">
+        <div class="menubar">
+            <img class="logo" src="images4/Elementra.png" alt="Logo">
+            <div class="tabs">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Work</a>
+                <a href="#">Project Details</a>
+                <a href="#">Contact</a>
+            </div>
+            <img class="call" src="images4/Phone.png" alt="Call">
+            <a class="contact" href="#">Contact</a>
         </div>
-        <img class="call" src="images4/Phone.png" alt="Call">
-        <a class="contact" href="#">Contact</a>
     </div>
 </body>
 
