@@ -31,7 +31,6 @@
         justify-content: center;
         background-color: rgb(12, 43, 78);
         width: 100%;
-        padding: 10px;
     }
 
     .social a {
@@ -78,21 +77,25 @@
 
     img {
         width: 50px;
+        margin-bottom: 10px;
+        justify-content: left;
     }
 
     .weeks {
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
         align-items: center;
         margin: auto;
         width: 80%;
         padding: 20px;
+        gap: 20px;
     }
 
     .weeks div {
         background-color: rgb(244, 244, 244);
+        opacity: 80%;
         border-radius: 20px;
-        width: 150px;
+        width: 300px;
         margin: 10px;
         padding: 20px;
         text-align: center;
@@ -101,12 +104,47 @@
 
     .weekend div {
         background-color: rgb(244, 244, 244);
+        opacity: 80%;
         border-radius: 20px;
-        width: 150px;
+        justify-content: center;
+        width: 96%;
         margin: 10px;
         padding: 20px;
         text-align: center;
         color: rgb(29, 84, 108);
+    }
+
+    .word2,
+    .word3,
+    .word4 {
+        max-width: 60%;
+    }
+
+    .word5 {
+        max-width: 30%;
+    }
+
+    .footer {
+        background-color: rgb(12, 43, 78);
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .socialfoot {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: rgb(244, 244, 244);
+    }
+
+    .copyright {
+        text-align: center;
+        color: rgb(244, 244, 244);
+        margin-bottom: 10px;
     }
 </style>
 
@@ -132,21 +170,49 @@
     <div class="weeks">
         <div class="week2">
             <img src="images4/calendar.png" alt="calender">
-            <h1>Week 2</h1>
+            <div class="word2">
+                <h1>Week 2</h1>
+            </div>
+            <a href="http://127.0.0.1:5500/week1/exercise1.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week1/exercise2.html" target="_blank">Exercise 2</a>
         </div>
         <div class="week3">
             <img src="images4/calendar.png" alt="calender">
-            <h1>Week 3</h1>
+            <div class="word3">
+                <h1>Week 3</h1>
+            </div>
+            <a href="http://127.0.0.1:5500/week2/button.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week2/self-intro.html" target="_blank">Exercise 2</a>
+            <a href="http://127.0.0.1:5500/week2/artist.html" target="_blank">Exercise 3</a>
         </div>
         <div class="week4">
             <img src="images4/calendar.png" alt="calender">
-            <h1>Week 4</h1>
+            <div class="word4">
+                <h1>Week 4</h1>
+            </div>
+            <a href="http://127.0.0.1:5500/week3/flexbox1.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week3/flexbox2.html" target="_blank">Exercise 2</a>
+            <a href="http://127.0.0.1:5500/week3/flexbox3.html" target="_blank">Exercise 3</a>
         </div>
     </div>
     <div class="weekend">
         <div class="week5">
             <img src="images4/calendar.png" alt="calender">
-            <h1>Week 5</h1>
+            <div class="word5">
+                <h1>Week 5</h1>
+            </div>
+            <a href="http://127.0.0.1:5500/week4/menu.html" target="_blank">Exercise 1</a>
+            <a href="http://127.0.0.1:5500/week4/usecase.html" target="_blank">Exercise 2</a>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="socialfoot">
+            <a href="https://www.instagram.com/bri_loo_/" target="_blank">Instagram</a>
+            <a href="https://x.com/wildfire_1111" target="_blank">Twitter</a>
+            <a href="https://www.youtube.com/@wildfire_05" target="_blank">Youtube</a>
+        </div>
+        <div class="copyright">
+            <p>© 2024 Brian Loo Chee Kean. All rights reserved.</p>
         </div>
     </div>
 </body>
