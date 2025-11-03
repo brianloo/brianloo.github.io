@@ -12,6 +12,7 @@
 <style>
     .container {
         display: flex;
+
         flex-direction: column;
         font-family: 'space grotesk', sans-serif;
     }
@@ -20,10 +21,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 20px;
         background-color: rgb(255, 255, 255);
         width: 100%;
-        padding: 8px;
     }
 
     .tabs a {
@@ -66,17 +65,18 @@
         background-color: rgb(242, 242, 242);
         display: flex;
         align-items: center;
-        gap: 200px;
-        align-self: flex-start;
         margin-right: 30px;
         margin-left: 80px;
         margin-top: 10px;
         border-radius: 40px;
+        gap: 20px;
     }
 
     .content .text {
         display: flex;
         flex-direction: column;
+        padding: 50px;
+        max-width: 400px;
     }
 
     .bottom {
@@ -110,7 +110,7 @@
     }
 
     .pic {
-        width: 500px;
+        width: 300px;
         margin-top: 50px;
         margin-left: 80px;
         margin-bottom: 50px;
@@ -137,6 +137,8 @@
         width: 150px;
         gap: 30px;
         border-radius: 50px;
+        margin: 20px;
+        flex-direction: row;
     }
 
     .text2 .head {
@@ -145,6 +147,45 @@
         width: fit-content;
         padding: 10px;
         border-radius: 20px;
+    }
+
+    img.menu {
+        display: none;
+    }
+
+    @media screen and (max-width: 700px) {
+        .content {
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .tabs {
+            display: none;
+        }
+
+        .request {
+            display: none;
+        }
+
+        img.menu {
+            display: block;
+            margin-left: auto;
+        }
+
+        .bottom {
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .pic2 {
+            display: none;
+        }
+
+        .img {
+            flex-direction: column;
+        }
     }
 </style>
 
@@ -161,31 +202,34 @@
                 <a href="#">Blog</a>
             </div>
             <a class="request" href="#">Request a quote</a>
+            <img class="menu" src="images4/Hamburger.png" alt="Hamburger Menu">
         </div>
         <div class="content">
-            <div class="text">
-                <img class="pic" src="images4/Pic.png" alt="Illustrator"> <br>
-                <h1>Proven Success Stories</h1> <br>
-                <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
-                    PPC, social media, or web design, these use cases highligh the tangible impact of our work. Explore
-                    the successes and envision what we can achieve together </p> <br>
+            <img class="pic" src="images4/Pic.png" alt="Illustrator"> <br>
+            <div class="word">
+                <h1>Proven Success Stories</h1>
+                <p>See how our innovative digital marketing strategies have transformed businesses. Whether through
+                    SEO,
+                    PPC, social media, or web design, these use cases highligh the tangible impact of our work.
+                    Explore
+                    the successes and envision what we can achieve together </p>
             </div>
         </div>
-        <div class="bottom">
-            <div class="text2">
-                <h1 class="head">Featured Success Story</h1>
-                <h3 class="subhead"> Scaling Success for a Leading E-Commerce Brand</h3>
-                <p class="para"> Through a comprehensive SEO and PPC strategy. We helped this e-commerce brand increase
-                    visibility,
-                    drive traffic, and boost sales.</p>
-                <img class="pic2" src="images4/Read.png" alt="Read More">
-            </div>
-            <div class="number">
-                <img src="images4/200.png" alt="200%">
-                <img src="images4/150.png" alt="150%">
-                <img src="images4/75.png" alt="75%">
-                <img src="images4/300.png" alt="300%">
-            </div>
+    </div>
+    <div class="bottom">
+        <div class="text2">
+            <h1 class="head">Featured Success Story</h1>
+            <h3 class="subhead"> Scaling Success for a Leading E-Commerce Brand</h3>
+            <p class="para"> Through a comprehensive SEO and PPC strategy. We helped this e-commerce brand increase
+                visibility,
+                drive traffic, and boost sales.</p>
+            <img class="pic2" src="images4/Read.png" alt="Read More">
+        </div>
+        <div class="number">
+            <img src="images4/200.png" alt="200%">
+            <img src="images4/150.png" alt="150%">
+            <img src="images4/75.png" alt="75%">
+            <img src="images4/300.png" alt="300%">
         </div>
     </div>
 </body>
