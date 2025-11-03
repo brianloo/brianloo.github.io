@@ -19,8 +19,9 @@
         align-items: center;
         padding: 10px;
         background-color: rgb(255, 255, 255);
-        width: 97%;
+        width: auto;
         margin-top: 50px;
+        height: 80px;
     }
 
     .contact {
@@ -53,8 +54,18 @@
         margin-right: auto;
     }
 
-    .img.menu {
-        display: none;
+    img.logo {
+        width: 260px;
+    }
+
+    img.call {
+        width: 200px;
+    }
+
+    @media screen and (max-width: 1700px) {
+        img.menu {
+            display: none;
+        }
     }
 
     @media screen and (max-width: 1300px) {
@@ -62,8 +73,18 @@
             display: none;
         }
 
+        .contact {
+            display: none;
+        }
+
         .img.menu {
             display: block;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        img.call {
+            display: none;
         }
     }
 </style>
