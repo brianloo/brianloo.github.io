@@ -11,8 +11,8 @@
 </head>
 <style>
     .container {
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
         font-family: 'space grotesk', sans-serif;
     }
 
@@ -74,11 +74,52 @@
         border-radius: 40px;
     }
 
+    .content .text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom {
+        background-color: rgb(25, 26, 35);
+        display: flex;
+        align-items: center;
+        gap: 200px;
+        align-self: flex-start;
+        margin-right: 30px;
+        margin-left: 80px;
+        margin-top: 10px;
+        border-radius: 40px;
+    }
+
+    .bottom .text2 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        padding: 50px;
+    }
+
     .pic {
         width: 500px;
         margin-top: 50px;
         margin-left: 80px;
         margin-bottom: 50px;
+    }
+
+    .pic2 {
+        width: 100px;
+        margin-top: 20px;
+    }
+
+    head {
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 4000;
+        font-style: bold;
+    }
+
+    p {
+        font-family: 'Oxygen', sans-serif;
+        font-weight: 300;
+        font-style: normal;
     }
 </style>
 
@@ -103,6 +144,15 @@
                 <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
                     PPC, social media, or web design, these use cases highligh the tangible impact of our work. Explore
                     the successes and envision what we can achieve together </p> <br>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="text2">
+                <h1>Featured Success Story</h1>
+                <h3> Scaling Success for a Leading E-Commerce Brand</h3>
+                <p> Through a comprehensive SEO and PPC strategy. We helped this e-commerce brand increase visibility,
+                    drive traffic, and boost sales.</p>
+                <img class="pic2" src="images4/Read.png" alt="Read More">
             </div>
         </div>
     </div>
