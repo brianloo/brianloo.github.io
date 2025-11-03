@@ -77,6 +77,7 @@
     .content .text {
         display: flex;
         flex-direction: column;
+        margin: fit-content;
     }
 
     .bottom {
@@ -96,6 +97,17 @@
         display: flex;
         flex-direction: column;
         padding: 50px;
+    }
+
+    .content .head {
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+
+    .content .subhead {
+        line-height: 24px;
+        font-weight: 400;
     }
 
     .pic {
@@ -121,6 +133,20 @@
         font-weight: 300;
         font-style: normal;
     }
+
+    img {
+        width: 150px;
+        gap: 30px;
+        border-radius: 50px;
+    }
+
+    .text2 .head {
+        color: black;
+        background-color: yellowgreen;
+        width: fit-content;
+        padding: 10px;
+        border-radius: 20px;
+    }
 </style>
 
 <body>
@@ -139,7 +165,7 @@
         </div>
         <div class="content">
             <div class="text">
-                <img class="pic" src="images4/Pic.png" alt="Illustrator">
+                <img class="pic" src="images4/Pic.png" alt="Illustrator"> <br>
                 <h1>Proven Success Stories</h1> <br>
                 <p>See how our innovative digital marketing strategies have transformed businesses. Whether through SEO,
                     PPC, social media, or web design, these use cases highligh the tangible impact of our work. Explore
@@ -148,11 +174,18 @@
         </div>
         <div class="bottom">
             <div class="text2">
-                <h1>Featured Success Story</h1>
-                <h3> Scaling Success for a Leading E-Commerce Brand</h3>
-                <p> Through a comprehensive SEO and PPC strategy. We helped this e-commerce brand increase visibility,
+                <h1 class="head">Featured Success Story</h1>
+                <h3 class="subhead"> Scaling Success for a Leading E-Commerce Brand</h3>
+                <p class="para"> Through a comprehensive SEO and PPC strategy. We helped this e-commerce brand increase
+                    visibility,
                     drive traffic, and boost sales.</p>
                 <img class="pic2" src="images4/Read.png" alt="Read More">
+            </div>
+            <div class="number">
+                <img src="images4/200.png" alt="200%">
+                <img src="images4/150.png" alt="150%">
+                <img src="images4/75.png" alt="75%">
+                <img src="images4/300.png" alt="300%">
             </div>
         </div>
     </div>
