@@ -102,3 +102,24 @@ p {
     font-weight: 300;
     font-style: normal;
 }
+
+@media screen and (max-width: 700px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .tabs {
+        display: none;
+    }
+
+    .request {
+        display: none;
+    }
+
+    img.menu {
+        display: block;
+        margin-left: auto;
+    }
+}
