@@ -117,6 +117,8 @@ img {
     gap: 30px;
     border-radius: 50px;
     flex-wrap: wrap;
+    justify-content: flex-end;
+    alignment-baseline: center;
 }
 
 .text2 .head {
@@ -125,6 +127,15 @@ img {
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
+}
+
+.feat {
+    width: 300px;
+    display: none;
+}
+
+.pic3 {
+    display: none;
 }
 
 @media screen and (max-width: 700px) {
@@ -157,7 +168,19 @@ img {
         display: none;
     }
 
+    .pic3 {
+        display: block;
+    }
+
     .img {
         flex-direction: column;
+    }
+
+    .head {
+        display: none;
+    }
+
+    .feat {
+        display: block;
     }
 }
