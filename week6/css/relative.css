@@ -1,0 +1,11 @@
+body {
+    margin: 20px;
+}
+
+
+div.relative {
+    position: relative;
+    bottom: 50px;
+    background-color: beige;
+    width: fit-content;
+}
