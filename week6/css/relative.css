@@ -24,6 +24,11 @@ body {
     gap: 20px;
 }
 
+.poster .more {
+    color: darkblue;
+    text-decoration: none;
+}
+
 .bat {
     position: relative;
     bottom: 80px;
