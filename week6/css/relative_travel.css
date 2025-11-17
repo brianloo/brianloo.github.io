@@ -1,3 +1,42 @@
 body {
     margin: 100px 100px 100px 100px;
 }
+
+.travel {
+    display: flex;
+    gap: 200px;
+}
+
+.travel img {
+    width: 500px;
+    border-radius: 20px;
+}
+
+.travel .leaf {
+    width: 30px;
+    border-radius: 100px;
+}
+
+.travel .map {
+    width: 30px;
+    border-radius: 100px;
+}
+
+.travel .send {
+    width: 30px;
+    border-radius: 100px;
+}
+
+.promo1 {
+    background-color: beige;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+
+.promo2 {
+    background-color: beige;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
