@@ -7,7 +7,7 @@ body {
     gap: 200px;
 }
 
-.travel img {
+.travel .banner {
     width: 500px;
     border-radius: 20px;
 }
@@ -27,7 +27,32 @@ body {
     border-radius: 100px;
 }
 
+.travel .booking {
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.travel .like {
+    width: 30px;
+    height: 30px;
+    margin-left: 280px;
+}
+
+.content1bot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.content2bot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 .promo1 {
+    position: relative;
     background-color: beige;
     width: fit-content;
     padding: 10px 20px 10px 20px;
@@ -35,8 +60,111 @@ body {
 }
 
 .promo2 {
+    position: relative;
     background-color: beige;
     width: fit-content;
     padding: 10px 20px 10px 20px;
     border-radius: 20px;
+}
+
+.popup1 {
+    position: absolute;
+    left: 400px;
+    bottom: 340px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(218, 218, 179);
+    width: 300px;
+    border-radius: 20px;
+}
+
+.popup1 .paris {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.popup1 .head {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0px;
+}
+
+.popup1 h1 {
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.popup1 .bottom {
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+.bottom .num {
+    color: blueviolet;
+}
+
+.popup2 {
+    position: absolute;
+    left: 1150px;
+    bottom: 325px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(218, 218, 179);
+    width: 300px;
+    border-radius: 20px;
+}
+
+.popup2 .tokyo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.popup2 .head {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0px;
+}
+
+.popup2 h1 {
+    margin-left: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.popup2 .bottom {
+    display: flex;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+.bottom .num {
+    color: blueviolet;
+}
+
+.popup2 .bar {
+    border: none;
+    height: 5px;
+    background-color: blueviolet;
+    margin: 20px 20px 20px 20px;
+}
+
+@media screen and (max-width: 1400px) {
+    .travel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popup1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popup2 {
+        flex-direction: column;
+        align-items: center;
+    }
 }
