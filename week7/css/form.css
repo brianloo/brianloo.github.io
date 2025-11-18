@@ -4,7 +4,74 @@ body {
 }
 
 .form {
-    background-color: beige;
+    background-color: rgb(220, 245, 239);
     padding: 20px;
     border-radius: 40px;
+    width: fit-content;
+}
+
+.form .header {
+    text-align: center;
+}
+
+.form .names {
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .date {
+    padding: 20px;
+    text-align: center;
+}
+
+.form .homepage {
+    padding: 20px;
+    text-align: center;
+}
+
+.form .fav {
+    padding: 20px;
+    text-align: center;
+}
+
+.form .bio {
+    padding: 20px;
+
+}
+
+.form .submit {
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+.names input {
+    width: 33%;
+    padding: 10px;
+}
+
+.homepage input {
+    width: 33%;
+    padding: 10px;
+}
+
+.date input {
+    width: 33%;
+    padding: 10px;
+}
+
+.submit input {
+    color: aliceblue;
+    background-color: rgb(0, 102, 255);
+    width: 100px;
+    padding: 20px;
+    border-radius: 80px;
+}
+
+input {
+    border-radius: 20px;
 }
