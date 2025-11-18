@@ -5,12 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Form</title>
+    <link rel="stylesheet" href="css/form.css">
 </head>
 
 <body>
-    <h1>This is a Registration Form </h1>
     <form>
-
+        <div class="form">
+            <h1>This is a Registration Form </h1>
+            <div class="name">
+                <div class="fname">
+                    <label for="fname">First Name:</label><br>
+                    <input type="text" id="fname" name="fname"><br>
+                </div>
+                <div class="lname">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname"><br>
+                </div>
+            </div>
+            <label for="birth">Date of Birth:</label><br>
+            <input type="date" id="birth" name="birth"><br>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="url">Homepage URL:</label><br>
+            <input type="url" id="url" name="url"><br><br>
+            <p>Favourite Colours</p>
+            <input type="checkbox" id="colour1" name="colour1" value="Red">
+            <label for="colour1"> Red</label><br>
+            <input type="checkbox" id="colour2" name="colour2" value="Orange">
+            <label for="colour2"> Orange</label><br>
+            <input type="checkbox" id="colour3" name="colour3" value="Yellow">
+            <label for="colour3"> Yellow</label><br>
+            <input type="checkbox" id="colour4" name="colour4" value="Green">
+            <label for="colour4"> Green</label><br>
+            <input type="checkbox" id="colour5" name="colour5" value="Blue">
+            <label for="colour5"> Blue</label><br>
+            <input type="checkbox" id="colour6" name="colour6" value="Purple">
+            <label for="colour6"> Purple</label><br><br>
+            <p><label for="intro">Bio/Self Introduction:</label></p>
+            <textarea id="intro" name="intro" rows="4"
+                cols="50">Please enter your bio or self introducton here.</textarea><br>
+            <input type="submit" value="Submit">
+        </div>
     </form>
 
 </body>
