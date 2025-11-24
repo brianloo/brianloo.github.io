@@ -31,11 +31,14 @@ body {
 .form .homepage {
     padding: 20px;
     text-align: center;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .form .fav {
     padding: 20px;
-    text-align: center;
 }
 
 .form .bio {

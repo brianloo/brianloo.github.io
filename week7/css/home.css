@@ -1,0 +1,107 @@
+.container {
+    justify-content: center;
+    align-items: center;
+    font-family: 'space grotesk', sans-serif;
+}
+
+img.home {
+    width: 240px;
+}
+
+.header .home {
+    margin-left: 80px;
+}
+
+.header .request {
+    margin-right: 220px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    align-self: flex-start;
+    margin-right: 30px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.content .text {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .illustration {
+    width: 600px;
+    height: 515px;
+    transform: translateY(20px);
+}
+
+.book {
+    padding: 16px 25px;
+    margin-right: auto;
+    color: white;
+    background-color: #191A23;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.content .head {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.content .subhead {
+    line-height: 24px;
+    font-weight: 400;
+}
+
+img.platform {
+    display: block;
+    margin-right: 190px;
+    margin-top: 60px;
+    max-width: 90%;
+    height: auto;
+}
+
+head {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 4000;
+    font-style: bold;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+}
+
+.pic {
+    width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px;
+    }
+
+    .media {
+        flex-wrap: wrap;
+    }
+
+    .text {
+        flex-direction: column;
+        align-items: center;
+    }
+}
